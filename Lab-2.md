@@ -43,15 +43,15 @@
 - Создать новый проект из шаблона 3D – Core;
 - Откройте вкладку Edit -> Project settings;
 - Установите XR Plugin Management;
-- –	Настройте XR Plugin Management на работу через SDK OpenXR;
-- –	Настройте режим рендера VR на каждый глаз;
-- –	Добавить поддержку контроллеров вашего оборудования;
-- –	Через вкладку Windows -> Pacage Manager добавьте и установите пакет com.unity.xr.interaction.toolkit;
-- –	Импортируйте Starter Assets из установленного пакета;
-- –	Настройте Input system на основе импортированного Starter Assets;
-- –	Скачайте и установите Steam и Steam VR;
-- –	Настройте и подключите к PC ваше VR оборудование;
-- –	Вернитесь в Unity и настройте запуск проекта через SteamVR;
+- Настройте XR Plugin Management на работу через SDK OpenXR;
+- Настройте режим рендера VR на каждый глаз;
+- Добавить поддержку контроллеров вашего оборудования;
+- Через вкладку Windows -> Pacage Manager добавьте и установите пакет com.unity.xr.interaction.toolkit;
+- Импортируйте Starter Assets из установленного пакета;
+- Настройте Input system на основе импортированного Starter Assets;
+- Скачайте и установите Steam и Steam VR;
+- Настройте и подключите к PC ваше VR оборудование;
+- Вернитесь в Unity и настройте запуск проекта через SteamVR;
 - Добавьте объект Plane;
 - Добавьте на сцену объект XR-Orig (Action Base);
 - На объект XR Interaction Manager создайте компонент Input Action Manager;
@@ -82,8 +82,8 @@ plt.scatter(x,y)
 ## Задание 2
 ### Привести ответ на вопросы:
 
-- –	Что значит X в аббревиатуре XR?
-- –	Какие SDK поддерживает XR Plugin Management по Default?
+- Что значит X в аббревиатуре XR?
+- Какие SDK поддерживает XR Plugin Management по Default?
 
 ```py
 
