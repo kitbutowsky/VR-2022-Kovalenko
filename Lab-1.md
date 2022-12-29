@@ -98,6 +98,17 @@
 
 
 - Написать скрипт, который будет выводить в консоль сообщение о том, что объект Sphere столкнулся с объектом Cube;
+
+Создаем новый скрипт для Sphere и проверяем что он появился:
+
+<img src="https://user-images.githubusercontent.com/91405800/209927172-903608a5-b6f9-4ef8-8e47-3a40e97222a1.png" height="200"> <img src="https://user-images.githubusercontent.com/91405800/209927226-91ff3b27-63d0-452f-a413-d4466e01c513.png" height="200">
+
+Открываем его и добавляем Класс OnTriggerEnter:
+
+<img src="https://user-images.githubusercontent.com/91405800/209927172-903608a5-b6f9-4ef8-8e47-3a40e97222a1.png" height="200"> 
+<p>
+<a href="https://github.com/kitbutowsky/VR-2022-Kovalenko/blob/main/Lab1/Assets/CheckCollider.cs"><img src="https://user-images.githubusercontent.com/91405800/209927490-b03a8af4-1cb3-450d-9b41-e03fe0fad444.png" height="500"></p>
+
 - При столкновении Cube должен менять свой цвет на зелёный, а при завершении столкновения обратно на красный.
 ```py
 
