@@ -17,6 +17,12 @@ public class CheckCollider : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        Debug.Log(other.gameObject.name);
+        Debug.Log("произошло слияние с объектом " + other.gameObject.name);
+        other.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+    }
+
+    private void OnTriggerExit(Collider other) {
+        Debug.Log("прекращено слияние с объектом " + other.gameObject.name);
+        other.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
     }
 }
