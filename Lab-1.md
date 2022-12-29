@@ -41,14 +41,62 @@
 ### Пошагово выполнить каждый пункт по примеру предоставленных видеоматериалов:
 Ход работы:
 - Создать новый проект из шаблона 3D – Core;
+
+Создаем проект:
+![image](https://user-images.githubusercontent.com/91405800/209919544-55677532-794e-4860-94c9-0323a7844203.png)
+Открываем проект:
+![image](https://user-images.githubusercontent.com/91405800/209919731-f4b503d1-b90a-4882-ad1e-0cb318b637eb.png)
+
 - Проверить, что настроена интеграция редактора Unity и Visual Studio Code (пункты 8-10 введения);
+
+Проверяем:
+
+<img src="https://user-images.githubusercontent.com/91405800/209919862-06b8f933-4d06-4d19-bcab-07c31383036f.png" height="500">           <img src="https://user-images.githubusercontent.com/91405800/209919899-3c698ead-bf00-4e8e-9088-0af6739b3870.png" height="500">
+
+<img src="https://user-images.githubusercontent.com/91405800/209920906-202945c7-0389-4e60-8a27-7b4ed82fb65a.png" height="500">
+
 - Создать объект Plane;
+
+Создаем:
+
+<img src="https://user-images.githubusercontent.com/91405800/209923188-771b606d-c190-4031-b770-38880d8314c0.png" height="350"> <img src="https://user-images.githubusercontent.com/91405800/209923609-bf2b649e-ffe4-431b-9088-3cf87b1b16de.png" height="350">
+
+
 - Создать объект Cube;
+
+Создаем:
+
+<img src="https://user-images.githubusercontent.com/91405800/209923188-771b606d-c190-4031-b770-38880d8314c0.png" height="350"> <img src="https://user-images.githubusercontent.com/91405800/209923920-3b44bb16-cf79-4e17-994f-5c21256f8d04.png" height="350">
+
 - Создать объект Sphere;
-- Установить компонент Sphere Collider для объекта Sphere;
-- Настроить Sphere Collider в роли триггера;
+
+Создаем:
+
+<img src="https://user-images.githubusercontent.com/91405800/209923188-771b606d-c190-4031-b770-38880d8314c0.png" height="350"> <img src="https://user-images.githubusercontent.com/91405800/209924016-c77dab8b-30b7-4deb-a6d6-418dd0a23ac2.png" height="350">
+
+- Установить компонент Sphere Collider для объекта Sphere и настроить Sphere Collider в роли триггера;;
+
+Включаем:
+
+![image](https://user-images.githubusercontent.com/91405800/209924190-5d58d9be-6604-4433-a07b-c636ccbf892b.png)
+
 - Объект куб перекрасить в красный цвет;
+
+Создаем Material в вкладке Assets и меняем его цвет на крассный:
+
+<img src="https://user-images.githubusercontent.com/91405800/209924473-bea85dbb-abe3-4103-b3df-e11c696dec32.png" height="500"> <img src="https://user-images.githubusercontent.com/91405800/209924568-4aa5b306-6ce2-40fc-abfe-a4f6c1bdaf04.png" height="500">
+
+Затем перетаскиваем Material на куб и видим что он перекрасился:
+
+<img src="https://user-images.githubusercontent.com/91405800/209924760-85fa5ff2-48f4-4886-aeff-bf0b22675a79.png" height="500">
+
 - Добавить кубу симуляцию физики, при это куб не должен проваливаться под Plane;
+
+Добавляем кубу компонент Rigidbody и обязательно поднимаем его над Plane:
+
+<img src="https://user-images.githubusercontent.com/91405800/209925098-50d9e949-88e9-4f55-8ef1-26b67c56f64c.png" height="200"> <img src="https://user-images.githubusercontent.com/91405800/209925027-f865470d-fa6a-4bf0-8f07-98b9e6090b86.png" height="400">
+
+
 - Написать скрипт, который будет выводить в консоль сообщение о том, что объект Sphere столкнулся с объектом Cube;
 - При столкновении Cube должен менять свой цвет на зелёный, а при завершении столкновения обратно на красный.
 ```py
