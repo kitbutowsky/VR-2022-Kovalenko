@@ -98,28 +98,21 @@
 
 
 - Написать скрипт, который будет выводить в консоль сообщение о том, что объект Sphere столкнулся с объектом Cube;
+
+Создаем новый скрипт для Sphere и проверяем что он появился:
+
+<img src="https://user-images.githubusercontent.com/91405800/209927172-903608a5-b6f9-4ef8-8e47-3a40e97222a1.png" height="200"> <img src="https://user-images.githubusercontent.com/91405800/209927226-91ff3b27-63d0-452f-a413-d4466e01c513.png" height="200">
+
+Открываем его и добавляем Класс OnTriggerEnter:
+
+<p><img src="https://user-images.githubusercontent.com/91405800/209927172-903608a5-b6f9-4ef8-8e47-3a40e97222a1.png" height="200"> 
+<a href="https://github.com/kitbutowsky/VR-2022-Kovalenko/blob/main/Lab1/Assets/CheckCollider.cs"><img src="https://user-images.githubusercontent.com/91405800/209927490-b03a8af4-1cb3-450d-9b41-e03fe0fad444.png" height="500"></p>
+
 - При столкновении Cube должен менять свой цвет на зелёный, а при завершении столкновения обратно на красный.
-```py
-
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
-```
-
-
+	
+Добавляем класс OnTriggerExit и донастраиваем оба класса вызывая метод изменения цвета материала:
+	
+<p><a href="https://github.com/kitbutowsky/VR-2022-Kovalenko/blob/main/Lab1/Assets/CheckCollider.cs"><img src="https://user-images.githubusercontent.com/91405800/209929438-e7f6aef7-b678-4bff-8632-d0f63915b375.png" height="250"></p>
 
 ## Задание 2
 ### Продемонстрируйте на сцене в Unity следующее:
